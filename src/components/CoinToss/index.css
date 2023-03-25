@@ -1,0 +1,93 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  max-width: 400px;
+}
+@media screen and (min-width: 768px) {
+  .inner-container {
+    max-width: 550px;
+  }
+}
+.heading {
+  text-align: center;
+  font-family: 'Roboto';
+  color: #a35200;
+  font-size: 40px;
+  font-weight: 500;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #334155;
+  font-weight: 500;
+  margin-top: 0px;
+}
+.image {
+  width: 50%;
+  align-self: center;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 40%;
+  }
+  .heading {
+    font-size: 50px;
+  }
+  .para {
+    font-size: 35px;
+  }
+}
+.button {
+  border: none;
+  background-color: #f9d423;
+  color: #a35200;
+  align-self: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 500;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 24px;
+}
+.count-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.count-text {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #475569;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .count-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .count-text {
+    margin: 40px;
+  }
+  .count-text {
+    font-size: 20px;
+  }
+}
